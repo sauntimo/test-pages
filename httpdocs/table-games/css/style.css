@@ -1,0 +1,26 @@
+html{
+	font-family: helvetica, arial, sans-serif;
+}
+
+table{
+	width: 100%;
+}
+
+th, td{
+	padding: 10px;
+	border: 1px solid #333;
+	border-collapse: collapse;
+}
+
+@media all and (max-width: 500px) {
+	
+	table,
+	thead,
+	tbody,
+	tr,
+	th,
+	td{
+		display: block;
+	}
+	
+}

@@ -1,0 +1,73 @@
+html{
+	font-family: helvetica, arial, sans-serif;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.main-wrapper{
+	width: 604px;
+	height: 604px;
+	border: 2px solid #444;
+}
+
+.box{
+	height: 200px;
+	width: 200px;
+	border: 2px solid #444;
+	float: left;
+	border-radius: 10%;
+	font-size: 5em;
+	color: white;
+	-webkit-text-stroke: 2px #444;
+	display: inline;
+	clear: both;
+	cursor: pointer;
+}
+
+.one{
+	background-color: red;
+	float: left;
+}
+
+.two{
+	background-color: orange;
+	float: left;
+}
+
+.three{
+	background-color: yellow;
+	float: left;
+}
+
+.four{
+	background-color: green;
+	float: left;
+}
+
+.five{
+	background-color: blue;
+	float: left;
+}
+
+.six{
+	background-color: purple;
+	float: left;
+}
+
+
+/* ----- CSS Animations -----  */
+
+.box {
+	overflow: hidden;
+	transition: opacity .4s, border .4s, height .4s;
+}
+
+.box.hidden {
+	opacity: 0 !important;
+	height: 0 !important;
+	border: none !important;
+}
+
+

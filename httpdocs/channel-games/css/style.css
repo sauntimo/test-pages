@@ -1,0 +1,116 @@
+
+html{
+	font-family: helvetica, arial, sans-serif;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+h2{
+	margin: 0;
+}
+
+div.section{
+	float: left;
+	border: 2px solid #ccc;
+	margin: 5px;
+}
+
+div.item_list {
+	list-style: none;
+}
+
+div.item_list div.item{ 
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 3px;
+	background-color: #eee;
+}
+
+/* ============= Defaults ============= */
+
+div.defaults div.item{
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+div.defaults div.item.level-1{
+	
+}
+
+div.defaults div.item.level-1.parent{
+	background-color: #4C4CAE;
+}
+
+div.defaults div.item.level-2{
+	background-color: #7878C9;
+}
+
+div.defaults div.item.level-2.parent{
+	background-color: #E14D75;
+}
+
+div.defaults div.item.level-3{
+	background-color: #EE7E9C;
+}
+
+div.defaults div.item.level-3.parent{
+	background-color: #F8CF55;
+	
+}
+
+div.defaults div.item.level-4{
+	background-color: #FFE187;
+}
+
+div.defaults div.item.level-4.parent{
+	background-color: #A9EA7B;
+	/*background-color: #87DB4B;*/
+}
+
+
+
+div.defaults div.item div.data{
+	display: inline-block;
+	padding: 5px;
+	margin: 10px 5px;
+	border-radius: 2px;
+	background-color: #eee;
+}
+
+div.defaults div.item div.children{
+	margin: 0;
+	width: 100%;
+}
+
+/*div.defaults div.item.level-1 div.children{
+	background-color: #666;
+}*/
+
+div.defaults div.item div.data.id,
+div.defaults div.item div.data.parent{
+	width: 30px;
+}
+
+div.defaults div.item div.data.variable,
+div.defaults div.item div.data.type,
+div.defaults div.item div.data.value{
+	width: 200px;
+}
+
+div.defaults div.item div.data.show-children{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+div.defaults div.item div.data.show-children:hover{
+	opacity: 1;
+}
+
+div.children div.item{
+	display: none;
+	width: 100%;
+}
+

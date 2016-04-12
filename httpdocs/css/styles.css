@@ -1,0 +1,87 @@
+body {
+		font-family: helvetica, sans-serif;
+		color: #222;
+		padding: 30px;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+div.section{
+	float: left;
+}
+
+
+div.test_pages{
+	list-style: none;
+	float: left;
+	padding: 0;
+}
+
+div.test_pages a{
+	display: inline;
+	float: left;
+	padding: 10px;
+	margin: 1px;
+	border-radius: 7px;
+	border: 2px solid white;
+	background-color: #ccc;
+}
+
+div.test_pages a{
+	text-decoration: none;
+	color: #222;
+	font-size: 2em;
+}
+
+div.test_pages a:hover{
+	background-color: #999;
+	border: 2px solid #222;
+	color: #eee;
+}
+
+div.table.sites{
+	float: left;
+	font-family: courier, monospace
+}
+
+div.table.sites div.tbody div.row div.cell{
+	display: inline-block;
+	margin: 10px;
+}
+
+div.table.sites div.tbody div.row div.cell a{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+/*	width: 125px;*/
+	text-decoration: none;
+	color: #222;
+}
+
+div.table.sites div.tbody div.row:nth-child(1) div.cell a{
+	background-color: #333;
+	color: white;
+}
+
+div.table.sites div.tbody div.row:nth-child(1) div.cell a{
+	color: #ccc;
+}
+
+
+div.table.sites div.tbody div.row:nth-child(2) div.cell a{
+	background-color: #888;
+	/*display: none;*/
+}
+
+div.table.sites div.tbody div.row:nth-child(3) div.cell a{
+	background-color: #bbb;
+/*	display: none;*/
+}
+
+div.table.sites div.tbody div.row div.cell a:hover{
+	opacity: 0.9;
+}
+
